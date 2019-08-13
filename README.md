@@ -6,7 +6,7 @@ With PlayVideoURL you can create a list of direct links videos on https://pasteb
 ## How to install it?
 
 *Insert https://falbanni.github.io as media source and install **plugin.video.playvideourl.zip***  
-*If you don't know how to do it, here is a step by step guide...*  
+*If you don't know how to do it, here is a step by step guide:*  
 
  1. Launch Kodi
  2. Turn on Unknown Sources if not already on
