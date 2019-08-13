@@ -5,6 +5,9 @@ With PlayVideoURL you can generate a list of videos on https://pastebin.com and 
 
 ## How to install it?
 
+*Insert https://falbanni.github.io as media source and install plugin.video.playvideourl.zip*  
+*If you don't know how to do it, here is a step by step guide...*  
+
  1. Launch Kodi
  2. Turn on Unknown Sources if not already on
  3. Click Settings Icon
