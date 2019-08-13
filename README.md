@@ -36,5 +36,5 @@ With PlayVideoURL you can generate a list of videos on https://pastebin.com and 
  2. Paste it at https://pastebin.com 
  3. Launch the **playvideourl** plugin
  4. Insert your *RAW* pastebin link, for example:  
- `https://pastebin.com/raw/MXw7MaTe](https://pastebin.com/raw/MXw7MaTe)`
+ `https://pastebin.com/raw/MXw7MaTe`
  5. Press OK
