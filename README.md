@@ -1,5 +1,5 @@
 # PlayVideoURL
-
+*Play videos in Kodi directly from URL direct links.*
 With PlayVideoURL you can generate a list of videos on https://pastebin.com and then play them all on Kodi!
 
 ## How to install it?
