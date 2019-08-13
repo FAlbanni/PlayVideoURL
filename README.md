@@ -25,15 +25,15 @@ With PlayVideoURL you can generate a list of videos on https://pastebin.com and 
  
  ## How to use it?
  Well is really simple:
- 1. Log in or create a text in https://pastebin.com
- 2. Create a list of direct video links one per line, for example:  
-`http://www.vidsplay.com/vids/crab.mp4`  
+ 1. Create a text file with all your video direct links one per line, it should look like this:  
+ `http://www.vidsplay.com/vids/crab.mp4`  
 `http://www.vidsplay.com/vids/alligator.mp4`  
 `http://www.vidsplay.com/vids/traffic1.avi`  
 `http://www.vidsplay.com/vids/traffic_arrows.mp4`  
 `http://www.vidsplay.com/vids/bbqchicken.mp4`  
 `http://www.vidsplay.com/vids/hamburger.mp4`  
-`http://www.vidsplay.com/vids/pizza.mp4`  
+`http://www.vidsplay.com/vids/pizza.mp4` 
+ 2. Paste it at https://pastebin.com 
  3. Launch the **playvideourl** plugin
  4. Insert your *RAW* pastebin link, for example:  
  `https://pastebin.com/raw/MXw7MaTe](https://pastebin.com/raw/MXw7MaTe)`
