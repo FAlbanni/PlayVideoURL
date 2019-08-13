@@ -9,7 +9,8 @@ With PlayVideoURL you can generate a list of videos on https://pastebin.com and 
  3. Click Settings Icon ![Kodi Settings Icon](https://troypoint.com/wp-content/uploads/2017/06/Kodi-Settings-Icon.png)
  4. Click File Manager![click settings](https://troypoint.com/wp-content/uploads/2018/10/github-1.png)
  5. Click Add Source![click add source](https://troypoint.com/wp-content/uploads/2018/10/github-3.png)
- 6. Click None![click none](https://troypoint.com/wp-content/uploads/2018/10/github-4.png)
+ 6. Click None
+ ![click none](https://troypoint.com/wp-content/uploads/2018/10/github-4.png)
  7. Type the following URL exactly how it is listed here playvideourl.github.io and click OK
  8. Type **playvideourl** or another name for this media source and click OK
  9. Return to Kodi home-screen and Click Add-Ons![click add-ons](https://troypoint.com/wp-content/uploads/2018/10/github-7.png)
