@@ -7,14 +7,13 @@ import urllib2
 
 _handle = int(sys.argv[1])
 storedPastebinurl = xbmcaddon.Addon().getSetting('pastebinurl')
+dialog = xbmcgui.Dialog()
 
 def storedPastebinurlRetrieve():
     storedPastebinurl = xbmcaddon.Addon().getSetting('pastebinurl')
     return storedPastebinurl
 
 def parse_links():
-    dialog = xbmcgui.Dialog()
-
     if storedPastebinurlRetrieve() is '':
         pastebinurl = dialog.input('Enter Pastebin raw address', defaultt='https://pastebin.com/raw/', type=xbmcgui.INPUT_ALPHANUM)
         xbmcaddon.Addon().setSetting(id='pastebinurl', value=pastebinurl)
@@ -25,15 +24,24 @@ def parse_links():
     linksource = storedPastebinurlRetrieve()
 
     if 'pastebin' in linksource:
-        links = urllib2.urlopen(linksource).read()
-        return links.split('\n')
+        source = urllib2.urlopen(linksource).read()
+        links = source.split('\n')
+        for link in links:
+            if link.startswith('http'):
+                continue
+            else:
+                return 0
+        return links
     else:
-        dialog.ok('Kodi', 'You must enter a valid pastebin address.')
+        dialog.ok('PlayVideoURL', 'You must enter a valid pastebin address.')
         sys.exit()
 
 
 def list_videos():
     videos = parse_links()
+    if isinstance(videos, int):
+        dialog.ok('PlayVideoURL', 'URLs are bad formatted, they must start with http or https, check your pastebin.')
+        sys.exit()
     xbmcplugin.setContent(_handle, 'videos')
     listing = []
     for video in videos:
